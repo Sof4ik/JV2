@@ -1,0 +1,23 @@
+class Eagle extends Bird {
+    @Override
+    void eat() {
+        System.out.println("Eagle eats meat.");
+    }
+
+    @Override
+    void move() {
+        System.out.println("Eagle flies.");
+    }
+}
+
+class Duck extends Bird {
+    @Override
+    void eat() {
+        System.out.println("Duck eats a plant.");
+    }
+
+    @Override
+    void move() {
+        System.out.println("Duck swims.");
+    }
+}

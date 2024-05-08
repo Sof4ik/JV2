@@ -1,0 +1,6 @@
+abstract class Bird {
+    abstract void eat();
+
+    abstract void move();
+}
+

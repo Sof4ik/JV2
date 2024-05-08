@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        Bird eagle = new Eagle();
+        Bird duck = new Duck();
+
+        // Викликаємо методи eat() та move() через поліморфізм
+        eagle.eat();
+        eagle.move();
+
+        duck.eat();
+        duck.move();
+    }
+}
